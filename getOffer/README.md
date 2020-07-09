@@ -1,5 +1,5 @@
-1. 数组中的重复数字    
-<span id="jump">
+1. 数组中的重复数字   
+ 
 ```python
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
@@ -155,6 +155,8 @@ class Solution:
 ```    
 
 9. [旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)   
+
+<span id="jump9"></span>
 
 ```python
 class Solution:
