@@ -1,4 +1,18 @@
-## <<剑指offer>> Leetcode编程题   
+## 项目简介   
+该项目用于记录自己学习算法的一些笔记    
+***暂定内容包括***：   
++ leetcode 剑指offer
++ leetcode 探索 常见数据结构
++ 《算法》常见排序算法    
+
+***使用语言***：
++ python
++ go（待办）
++ javascript（待办）   
+
+---
+
+### <<剑指offer>> Leetcode编程题   
 
 1. [数组中重复的数字](https://github.com/Joey-Coder/leetcode-python/tree/master/getOffer#jump1)   
 2. [二维数组中的查找](https://github.com/Joey-Coder/leetcode-python/tree/master/getOffer#jump2)
@@ -75,3 +89,5 @@
 73. [把字符串转换成整数](https://github.com/Joey-Coder/leetcode-python/tree/master/getOffer#jump73)    
 74. [二叉搜索树的最近公共祖先](https://github.com/Joey-Coder/leetcode-python/tree/master/getOffer#jump74)   
 75. [二叉树的最近公共祖先](https://github.com/Joey-Coder/leetcode-python/tree/master/getOffer#jump75)
+
+---
