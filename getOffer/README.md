@@ -1,5 +1,5 @@
 1. 数组中的重复数字    
-
+<span id="jump">
 ```python
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
