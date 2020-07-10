@@ -65,6 +65,7 @@ class Sort:
             h = h // 3
 
     def MergeSort(self):
+        # 归并排序
         # 辅助数组
         aux = [0] * self.size
 
@@ -98,6 +99,7 @@ class Sort:
             sz = sz + sz
 
     def QuickSort(self, lo=0, hi=None):
+        # 快速排序
         def partition(lo, hi):
             i, j = lo, hi + 1
             v = self.a[lo]
@@ -117,6 +119,7 @@ class Sort:
             return j
 
         def insertsort(lo, hi):
+            # 当排序集合个数小于设定值时，使用插入排序替代快速排序
             for i in range(lo + 1, hi + 1):
                 for j in range(i, 0, -1):
                     if self.less(self.a[j], self.a[j - 1]):
@@ -136,9 +139,10 @@ class Sort:
                 self.QuickSort(lo, j - 1)
                 self.QuickSort(j + 1, hi)
 
-    # 快速排序改进版，使用三向切分，针对重复元素较多时使用
-    # 如果没有大量的重复元素的话，其效率比普通的快速排序低
+
     def ThreeQuickSort(self, lo=0, hi=None):
+        # 快速排序改进版，使用三向切分，针对重复元素较多时使用
+        # 如果没有大量的重复元素的话，其效率比普通的快速排序低
         def insertsort(lo, hi):
             for i in range(lo + 1, hi + 1):
                 for j in range(i, 0, -1):
@@ -170,6 +174,7 @@ class Sort:
                 self.ThreeQuickSort(gt + 1, hi)
 
     def HeapSort(self):
+        # 堆排序
         # 下沉函数，判断父节点是否小于小个子节点
         # 如果小于，则将父节点和子节点中较大的一个对换
         def sink(k, N):
